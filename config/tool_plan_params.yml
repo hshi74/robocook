@@ -1,0 +1,75 @@
+gripper_asym:
+  act_len: 15
+  grip_min: 0.001
+  init_grip: 0.04
+  init_h: 0.18
+  rot_range:
+  - -2.792526803190927
+  - 2.792526803190927
+  rot_scope: 6.283185307179586
+gripper_sym_plane:
+  act_len: 15
+  grip_min: 0.005
+  init_grip: 0.04
+  init_h: 0.18
+  rot_range:
+  - -1.5707963267948966
+  - 1.5707963267948966
+  rot_scope: 3.141592653589793
+gripper_sym_rod:
+  act_len: 15
+  grip_min: 0.001
+  init_grip: 0.04
+  init_h: 0.18
+  rot_range:
+  - -1.5707963267948966
+  - 1.5707963267948966
+  rot_scope: 3.141592653589793
+press_circle:
+  act_len: 15
+  init_h: 0.3
+  x_noise: 0.03
+  y_noise: 0.03
+press_square:
+  act_len: 15
+  init_h: 0.3
+  rot_range:
+  - -0.7853981633974483
+  - 0.7853981633974483
+  rot_scope: 1.5707963267948966
+  x_noise: 0.03
+  y_noise: 0.03
+punch_circle:
+  act_len: 15
+  init_h: 0.3
+  x_noise: 0.02
+  y_noise: 0.02
+punch_square:
+  act_len: 15
+  init_h: 0.3
+  rot_range:
+  - -0.7853981633974483
+  - 0.7853981633974483
+  rot_scope: 1.5707963267948966
+  x_noise: 0.02
+  y_noise: 0.02
+roller_large:
+  act_len: 15
+  init_h: 0.3
+  roll_range: 0.12
+  rot_range:
+  - -3.141592653589793
+  - 3.141592653589793
+  rot_scope: 6.283185307179586
+  x_noise: 0.01
+  y_noise: 0.01
+roller_small:
+  act_len: 15
+  init_h: 0.3
+  roll_range: 0.12
+  rot_range:
+  - -3.141592653589793
+  - 3.141592653589793
+  rot_scope: 6.283185307179586
+  x_noise: 0.01
+  y_noise: 0.01

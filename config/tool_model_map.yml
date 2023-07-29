@@ -1,0 +1,31 @@
+gnn:
+  gripper_asym: gripper_asym_robot_v4_surf_nocorr_full_normal/dy_keyframe_nr=0.01_tnr=0.007_0.007_his=1_seq=2_time_step=3_chamfer_emd_0.5_0.5_rm=1_valid_Oct-20-23:52:40
+  gripper_sym_plane: gripper_sym_plane_robot_v4_surf_nocorr_full_normal/dy_keyframe_nr=0.01_tnr=0.007_0.007_his=1_seq=2_time_step=3_chamfer_emd_0.5_0.5_rm=1_valid_Oct-20-23:52:48
+  gripper_sym_rod: gripper_sym_rod_robot_v4_surf_nocorr_full_normal/dy_keyframe_nr=0.01_tnr=0.005_0.005_his=1_seq=2_time_step=3_chamfer_emd_0.5_0.5_rm=1_valid_Oct-19-17:27:26
+  press_circle: press_square_robot_v4_surf_nocorr_full_normal/dy_keyframe_nr=0.01_tnr=0.006_his=1_seq=2_time_step=1_chamfer_emd_0.5_0.5_valid_Nov-02-14:11:03
+  press_square: press_square_robot_v4_surf_nocorr_full_normal/dy_keyframe_nr=0.01_tnr=0.006_his=1_seq=2_time_step=1_chamfer_emd_0.5_0.5_valid_Nov-02-14:11:03
+  punch_circle: punch_square_robot_v4_surf_nocorr_full_normal/dy_keyframe_nr=0.01_tnr=0.004_his=1_seq=2_time_step=1_chamfer_emd_0.5_0.5_valid_Oct-30-22:40:40
+  punch_square: punch_square_robot_v4_surf_nocorr_full_normal/dy_keyframe_nr=0.01_tnr=0.004_his=1_seq=2_time_step=1_chamfer_emd_0.5_0.5_valid_Oct-30-22:40:40
+  roller_large: roller_large_robot_v4_surf_nocorr_full_normal/dy_keyframe_nr=0.01_tnr=0.005_his=1_seq=2_time_step=1_chamfer_emd_0.5_0.5_valid_Nov-02-19:01:19
+learned:
+  gripper_asym: 
+  - gripper_asym_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=1_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=0.1
+  - gripper_asym_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=2_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=0.1
+  gripper_sym_plane: 
+  - gripper_sym_plane_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=1_ef=1_normal=1_weight=1.0+1.0_bin=64+8_rot=0.25_ratio=0.1
+  - gripper_sym_plane_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=2_ef=1_normal=1_weight=1.0+1.0_bin=64+8_rot=0.25_ratio=0.1
+  gripper_sym_rod: 
+  - gripper_sym_rod_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=1_ef=1_normal=1_weight=1.0+1.0_bin=64+8_rot=0.25_ratio=0.1
+  - gripper_sym_rod_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=2_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=0.1
+  punch_circle: 
+  - punch_circle_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=1_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=0.1
+  - punch_circle_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=2_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=0.1
+  punch_square: 
+  - punch_square_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=1_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=0.1
+  - punch_square_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=2_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=0.1
+  press_square: 
+  - press_square_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=1_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=0.1
+  - press_square_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=2_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=0.1
+  roller_large: 
+  - roller_large_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=1_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=1.0
+  - roller_large_robot_v4_surf_nocorr_full_normal_keyframe=16_action=2_p=300/plan_p=300_n=2_ef=1_normal=1_weight=1.0+1.0_bin=32+8_rot=0.25_ratio=1.0

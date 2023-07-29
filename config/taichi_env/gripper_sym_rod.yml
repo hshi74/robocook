@@ -1,0 +1,42 @@
+SIMULATOR:
+  yield_stress: 200.
+  ground_friction: 100.
+  gravity: (0, -5, 0)
+SHAPES:
+  - shape: box
+    width: (0.25, 0.2, 0.25)
+    init_pos: (0.5, 0.1, 0.5)
+    n_particles: 20000
+    color: ((150<<8)+ (150<<16))
+PRIMITIVES:
+  - shape: Cylinder
+    h: 0.2528
+    r: 0.045
+    init_pos: (0.5, 0.1, 0.5)
+    init_rot: (1., 0., 0., 0.)
+    color: (0.8, 0.8, 0.8)
+    friction: 1.
+    action:
+      dim: 6
+      scale: (0.02, 0.02, 0.02, 0.04, 0.04, 0.04)
+
+  - shape: Cylinder
+    h: 0.2528
+    r: 0.045
+    init_pos: (0.5, 0.1, 0.5)
+    init_rot: (1., 0., 0., 0.)
+    color: (0.8, 0.8, 0.8)
+    friction: 1.
+    action:
+      dim: 6
+      scale: (0.02, 0.02, 0.02, 0.04, 0.04, 0.04)
+
+ENV:
+  loss:
+    target_path: envs/assets/Chopsticks3D-v1.npy
+RENDERER:
+  use_directional_light: False
+VARIANTS:
+  - ENV:
+      loss:
+        target_path: envs/assets/gripper-v1.npy
